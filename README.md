@@ -1,6 +1,3 @@
 https://NataliItaly.github.io/rsschool-cv/cv
 
-
-https://NataliItaly.github.io/rsschool-cv/
-
-
+https://nataliitaly.github.io/CV-web-developer-Krylova/
