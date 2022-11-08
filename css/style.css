@@ -286,50 +286,54 @@ h3 {
 }
 
 .project-item-container:nth-of-type(4) .project-item::before {
-  content: "Photographer Portfolio";
+  content: "Travel Web Site";
 }
 
 .project-item-container:nth-of-type(5) .project-item::before {
-  content: "Weather App";
+  content: "Photographer Portfolio";
 }
 
 .project-item-container:nth-of-type(6) .project-item::before {
-  content: "Eco Sound";
+  content: "Weather App";
 }
 
 .project-item-container:nth-of-type(7) .project-item::before {
-  content: "Language School";
+  content: "Eco Sound";
 }
 
 .project-item-container:nth-of-type(8) .project-item::before {
-  content: "Denim Shop";
+  content: "Language School";
 }
 
 .project-item-container:nth-of-type(9) .project-item::before {
-  content: "Halloween Card";
+  content: "Denim Shop";
 }
 
 .project-item-container:nth-of-type(10) .project-item::before {
-  content: "Yoga Studio";
+  content: "Halloween Card";
 }
 
 .project-item-container:nth-of-type(11) .project-item::before {
-  content: "Flower Shop";
+  content: "Yoga Studio";
 }
 
 .project-item-container:nth-of-type(12) .project-item::before {
-  content: "Pet's Shelter";
+  content: "Flower Shop";
 }
 
 .project-item-container:nth-of-type(13) .project-item::before {
-  content: "Custom Development";
+  content: "Pet's Shelter";
 }
 
 .project-item-container:nth-of-type(14) .project-item::before {
-  content: "Conquest Store";
+  content: "Custom Development";
 }
 
 .project-item-container:nth-of-type(15) .project-item::before {
+  content: "Conquest Store";
+}
+
+.project-item-container:nth-of-type(16) .project-item::before {
   content: "Museum";
 }
 
