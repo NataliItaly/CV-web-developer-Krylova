@@ -258,12 +258,15 @@ h3 {
   width: 287px;
   min-width: 270px;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 .project-item-container > p:first-of-type {
   margin-top: 10px;
 }
 .project-item {
   position: relative;
+  overflow: hidden;
   display: block;
   border-radius: 40px;
   border: 5px solid #6e777c;
@@ -273,7 +276,7 @@ h3 {
   transition: 0.6s all ease;
 }
 
-.project-item-container:nth-of-type(1) .project-item::before {
+/* .project-item-container:nth-of-type(1) .project-item::before {
   content: "Online Zoo";
 }
 
@@ -335,9 +338,9 @@ h3 {
 
 .project-item-container:nth-of-type(16) .project-item::before {
   content: "Museum";
-}
+} */
 
-.project-item-container .project-item::before {
+/* .project-item-container .project-item::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -350,16 +353,39 @@ h3 {
   transform: translateY(-100%);
   opacity: 0;
   transition: 0.6s all ease-in-out;
+} */
+
+.item-description {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 70px 10px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(69, 73, 74, 0.95);
+  color: #efdfcc;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: 0.6s all ease-in-out;
+  border-radius: 20px;
+}
+
+.project-item-container:hover .item-description {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 1;
 }
 
 .project-item:hover {
   border: 5px solid rgb(189, 173, 173);
 }
 
-.project-item-container .project-item:hover::before {
+/* .project-item-container .project-item:hover::before {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 .project-item img {
   width: 100%;
   height: 100%;
